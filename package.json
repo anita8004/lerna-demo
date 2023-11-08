@@ -5,8 +5,13 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@types/mocha": "^10.0.4",
     "@types/node": "^20.9.0",
     "lerna": "^7.4.2",
+    "mocha": "^10.2.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }
