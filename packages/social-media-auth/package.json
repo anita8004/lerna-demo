@@ -5,7 +5,7 @@
   "author": "anita <anita_li@paradise-soft.com.tw>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/social-media-auth.js",
+  "main": "src/social-media-auth.ts",
   "typings": "lib/social-media.auth.d.ts",
   "directories": {
     "lib": "lib",

@@ -1,5 +1,12 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+
+const login = () => {
+  FB.login((response) => {
+    console.log(response)
+  })
+}
+ 
 </script>
 
 <template>
@@ -11,6 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+  <button @click="login">Facebook Login</button>
   <HelloWorld msg="Vite + Vue" />
 </template>
 
