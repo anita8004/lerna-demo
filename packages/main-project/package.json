@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "social-media-auth": "file:packages/social-media-auth",
+    "vant": "^4.5.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
