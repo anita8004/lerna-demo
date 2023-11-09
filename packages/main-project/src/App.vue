@@ -1,12 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-
-const login = () => {
-  FB.login((response) => {
-    console.log(response)
-  })
-}
- 
+import Counter from './components/Counter.vue'
 </script>
 
 <template>
@@ -18,8 +12,8 @@ const login = () => {
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <button @click="login">Facebook Login</button>
   <HelloWorld msg="Vite + Vue" />
+  <Counter />
 </template>
 
 <style scoped>

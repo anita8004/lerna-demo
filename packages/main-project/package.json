@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "math-tools": "file:../math-tools",
+    "pinia": "^2.1.7",
     "social-media-auth": "file:../social-media-auth",
     "vant": "^4.5.0",
     "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.69.5",
     "typescript": "^5.0.2",
     "unplugin-auto-import": "^0.16.7",
     "vite": "^4.4.5",
