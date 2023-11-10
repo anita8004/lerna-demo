@@ -1,11 +1,9 @@
-<script lang="ts">
-export default {
-  name: 'Login'
-}
-</script>
-
 <script lang="ts" setup>
 import router from '@/router'
+
+defineOptions({
+  name: 'Login'
+})
 
 const login = () => {
   router.push({ name: 'Home' })
