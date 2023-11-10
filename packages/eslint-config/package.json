@@ -1,0 +1,37 @@
+{
+  "name": "@anita/eslint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "anita <anita_li@paradise-soft.com.tw>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/eslint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@anita/eslint-config.test.js",
+    "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vue-eslint-parser": "^9.3.2"
+  }
+}
