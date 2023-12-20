@@ -7,15 +7,14 @@
 </p>
 </template>
 
-<script lang="ts">
-export default {
-  name: 'Counter'
-}
-</script>
-
 <script lang="ts" setup>
 // @ts-ignore
 import { useCounterStore } from '@/stores/counter'
+
+defineOptions({
+  name: 'Counter'
+})
+
 const counterStore = useCounterStore();
 </script>
 
