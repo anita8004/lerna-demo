@@ -4,6 +4,7 @@ import VueMacros from 'unplugin-vue-macros/vite'
 import vue from '@vitejs/plugin-vue'
 import VueSetupExtend from 'vite-plugin-vue-setup-extend'
 import AutoImport from 'unplugin-auto-import/vite'
+import { viteMockServe } from 'vite-plugin-mock'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -18,6 +19,10 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
       imports: ['vue']
     })
+    viteMockServe({
+      mockPath: 'mock',
+      enable: true
+    }),
   ],
   resolve: {
     alias: {
