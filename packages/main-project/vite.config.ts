@@ -18,9 +18,9 @@ export default defineConfig({
     AutoImport({
       dts: 'src/auto-imports.d.ts',
       imports: ['vue']
-    })
+    }),
     viteMockServe({
-      mockPath: 'mock',
+      mockPath: 'src/mock',
       enable: true
     }),
   ],

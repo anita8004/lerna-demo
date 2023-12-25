@@ -6,7 +6,10 @@ defineOptions({
 const name = ref("")
 
 getTestApi().then((res: any) => {
-  name.value = res.name
+  console.log(res);
+  if (res.status === 200) {
+    name.value = res.data.data.name
+  }
 })
 </script>
 

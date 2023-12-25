@@ -10,11 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.6.2",
-    "game-sub-project": "file:../game-sub-project",
-    "math-tools": "file:../math-tools",
-    "mockjs": "^1.1.0",
     "pinia": "^2.1.7",
-    "social-media-auth": "file:../social-media-auth",
     "vant": "^4.5.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
@@ -22,12 +18,13 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue-macros/volar": "^0.17.2",
+    "mockjs": "^1.1.0",
     "sass": "^1.69.5",
     "typescript": "^5.0.2",
     "unplugin-auto-import": "^0.16.7",
     "unplugin-vue-macros": "^2.6.2",
     "vite": "^4.4.5",
-    "vite-plugin-mock": "^3.0.0",
+    "vite-plugin-mock": "^2.9.6",
     "vite-plugin-vue-setup-extend": "^0.4.0",
     "vue-tsc": "^1.8.5"
   }
